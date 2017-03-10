@@ -4,6 +4,36 @@
  sankofa orange: #ee3f00
  */
 
+/* Menu */
+.header-inner {
+  padding: 0;
+}
+
+#headerNav nav .index {
+  display: none;
+}
+
+
+#headerNav nav a,
+#headerNav nav .folder-toggle,
+.enable-nav-button #headerNav nav>div:not(.folder):last-child a {
+  line-height: 0.5em;
+  font-weight: 900;
+  padding: 0 0.5em;
+}
+
+/* Sub nav */
+html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav {
+  top: 200%;
+  left: 0;
+  padding: .5em 0;
+}
+
+html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav .collection {
+  padding: 1em 0;
+}
+
+
 /* Banner */
 body:not(.collection-type-gallery) .desc-wrapper p {
   text-align: right;
