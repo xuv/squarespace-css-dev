@@ -4,6 +4,19 @@
  sankofa orange: #ee3f00
  */
 
+/* Banner */
+body:not(.collection-type-gallery) .desc-wrapper p {
+  text-align: right;
+  padding-right: 15%;
+  margin: -65px 0 65px 0;
+}
+
+@media only screen and (max-width:640px) {
+  body:not(.collection-type-gallery) .desc-wrapper p {
+    margin: -65px 0 65px 0;;
+  }
+}
+
 /* Footer */
 #preFooter {
   text-align: center;
@@ -27,4 +40,10 @@
 
 #preFooter li a:hover {
   color: #ee3f00;
+}
+
+/* Contact / Connect */
+p.small-text {
+  text-align: center;
+  font-size: .85em;
 }
