@@ -4,15 +4,24 @@
  sankofa orange: #ee3f00
  */
 
-/* Menu */
+/* Header */
 .header-inner {
   padding: 0;
 }
 
+/* Logo rollover color hack */
+#logoImage a img {
+  filter: grayscale(100%) brightness(300%) ;
+}
+
+#logoImage a:hover img {
+  filter: none;
+}
+
+
 #headerNav nav .index {
   display: none;
 }
-
 
 #headerNav nav a,
 #headerNav nav .folder-toggle,
@@ -22,7 +31,7 @@
   padding: 0 0.5em;
 }
 
-/* Sub nav */
+/* Header > drop-downs */
 html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav {
   top: 200%;
   left: 0;
