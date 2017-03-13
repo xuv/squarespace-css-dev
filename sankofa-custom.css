@@ -86,3 +86,33 @@ p.small-text {
   text-align: center;
   font-size: .85em;
 }
+
+/* Mission */
+p.large-text {
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.mission {
+  border: 1px solid #ee3f00;
+  padding-top: 2em;
+}
+
+.mission h2 {
+  text-align: center;
+  color: #ee3f00;
+}
+
+p.medium-text {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.background-orange {
+  background-color: #ee3f00;
+  color: white; 
+}
