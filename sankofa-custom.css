@@ -95,6 +95,13 @@ p.large-text {
   margin-top: 0;
 }
 
+p.medium-text {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 0 5%;
+}
+
 .mission {
   border: 1px solid #ee3f00;
   padding-top: 2em;
@@ -105,14 +112,30 @@ p.large-text {
   color: #ee3f00;
 }
 
-p.medium-text {
-  font-size: 1.2em;
-  line-height: 1.5em;
-  text-align: center;
-  padding: 0 5%;
+.mission-orange {
+  background-color: #ee3f00;
+  color: white;
+  padding: 2em 1em;
 }
 
-.background-orange {
-  background-color: #ee3f00;
-  color: white; 
+.mission-orange h3 {
+  text-align: center;
+  color: white;
+}
+
+.mission-orange blockquote {
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em 25%;
+  line-height: 1.5em;
+}
+
+.mission-orange blockquote:before {
+  content: '“ ';
+  display: inline;
+}
+
+.mission-orange blockquote:after {
+  content: ' ”';
+  display: inline;
 }
