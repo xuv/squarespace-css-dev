@@ -143,3 +143,10 @@ p.medium-text {
   content: ' ”';
   display: inline;
 }
+
+/* Music */
+h2.music {
+  background-color: #ee3f00;
+  color: white;
+  padding: .5em .3em;
+}
