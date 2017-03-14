@@ -150,3 +150,60 @@ h2.music {
   color: white;
   padding: .5em .3em;
 }
+
+/* Dispatches */
+.sqs-block-summary-v2 .summary-excerpt p,
+.sqs-block-summary-v2 .summary-excerpt ul,
+.sqs-block-summary-v2 .summary-excerpt li {
+    font-size: 1rem;
+}
+
+.collection-type-blog.view-item .banner-thumbnail-wrapper #thumbnail,
+.collection-type-blog.view-item .banner-thumbnail-wrapper .post-date,
+.collection-type-blog.view-item .banner-thumbnail-wrapper .post-category,
+.collection-type-blog.view-item .banner-thumbnail-wrapper .post-author {
+  display: none;
+}
+
+.collection-type-blog.view-item .banner-thumbnail-wrapper .blog-item-wrapper{
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.collection-type-blog.view-item .banner-thumbnail-wrapper {
+  padding: 2em 32px 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 640px) {
+  .collection-type-blog.view-item .banner-thumbnail-wrapper {
+    padding: 2em 20px 0;
+  }
+}
+
+.collection-type-blog.view-item .post-title {
+  color: black;
+  text-align: left;
+  /* h2 settings */
+  font-family: Abel;
+  font-size: 36px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.collection-type-blog.view-item .blog-item-wrapper {
+  padding: 0;
+}
+
+.collection-type-blog.view-item #page {
+  padding-top: 0;
+}
+
+.pagination {
+  font-family: Abel;
+}
