@@ -9,7 +9,11 @@
   padding: 0;
 }
 
-/* Logo rollover color hack */
+/* Logo */
+#header #logoImage {
+    width: 200px;
+}
+
 #logoImage a img {
   filter: grayscale(100%) brightness(300%) ;
 }
