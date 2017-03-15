@@ -214,6 +214,10 @@ h2.music {
   font-family: Abel;
 }
 
+.meta-below-title {
+  display: none;
+}
+
 /* Read more link */
 .sqs-block-summary-v2 .summary-read-more-link {
   font-family: "Abel";
