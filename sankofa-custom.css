@@ -42,7 +42,7 @@
 
 /* Header > drop-downs */
 html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav {
-  top: 200%;
+  top: .5em;
   left: 0;
   padding: .5em 0;
 }
