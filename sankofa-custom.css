@@ -11,7 +11,7 @@
 
 /* Logo */
 #header #logoImage {
-    width: 200px;
+    width: 160px;
 }
 
 #logoImage a img {
@@ -30,9 +30,14 @@
 #headerNav nav a,
 #headerNav nav .folder-toggle,
 .enable-nav-button #headerNav nav>div:not(.folder):last-child a {
-  line-height: 0.5em;
+  line-height: 0em;
   font-weight: 900;
-  padding: 0 0.5em;
+  padding: 0 .5em;
+}
+
+.enable-nav-button #headerNav nav>div:not(.folder):last-child a {
+  padding: 1em !important;
+  margin-left: 0;
 }
 
 /* Header > drop-downs */
