@@ -53,9 +53,10 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 
 
 /* Banner */
-body:not(.collection-type-gallery) .desc-wrapper p {
+.banner-thumbnail-wrapper p {
   text-align: right;
   padding-right: 15%;
+  font-weight: 900;
   /* margin: -65px 0 65px 0; */
 }
 
