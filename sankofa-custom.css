@@ -213,3 +213,16 @@ h2.music {
 .pagination {
   font-family: Abel;
 }
+
+/* Read more link */
+.sqs-block-summary-v2 .summary-read-more-link {
+  font-family: "Abel";
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link  {
+  display: inline;
+  border: 1px solid #ee3f00;
+  padding: .3em;
+}
