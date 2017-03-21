@@ -66,6 +66,32 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   }
 }*/
 
+/* Spash on Homepage*/
+.view-list #splash  .banner-thumbnail-wrapper,
+.collection-type-index #splash .banner-thumbnail-wrapper {
+  min-height: 200px;
+}
+
+#splash .banner-thumbnail-wrapper .desc-wrapper {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+}
+
+#splash .banner-thumbnail-wrapper p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  background-color: #ee3f00;
+  text-align: center;
+  padding: .3em 0;
+  margin: 0;
+  color: black;
+}
+
+.collection-type-index #splash .page-content {
+  padding: 92px 32px 0px;
+}
 
 /* Footer */
 #footer {
@@ -110,6 +136,13 @@ p.large-text {
   margin-top: 0;
 }
 
+p.large-text a {
+  color: #ee3f00;
+}
+
+p.large-text a:hover {
+  text-decoration: underline;
+
 p.medium-text {
   font-size: 1.2em;
   line-height: 1.5em;
@@ -146,12 +179,12 @@ p.medium-text {
 }
 
 .mission-orange blockquote:before {
-  content: '“ ';
+  content: 'â€œÂ ';
   display: inline;
 }
 
 .mission-orange blockquote:after {
-  content: ' ”';
+  content: 'Â â€';
   display: inline;
 }
 
