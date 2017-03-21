@@ -93,6 +93,14 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   padding: 92px 32px 0px;
 }
 
+#what-we-do .summary-content {
+  padding-top: 17px;
+}
+
+#what-we-do .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {
+  font-size: 24px;
+}
+
 /* Footer */
 #footer {
   display: none;
@@ -180,12 +188,12 @@ p.medium-text {
 }
 
 .mission-orange blockquote:before {
-  content: 'â€œÂ ';
+  content: 'Ã¢â‚¬Å“Ã‚Â ';
   display: inline;
 }
 
 .mission-orange blockquote:after {
-  content: 'Â â€';
+  content: 'Ã‚Â Ã¢â‚¬Â';
   display: inline;
 }
 
@@ -200,7 +208,7 @@ h2.music {
 .sqs-block-summary-v2 .summary-excerpt p,
 .sqs-block-summary-v2 .summary-excerpt ul,
 .sqs-block-summary-v2 .summary-excerpt li {
-    font-size: 1rem;
+    font-size: 17px;
 }
 
 .collection-type-blog.view-item .banner-thumbnail-wrapper #thumbnail,
@@ -274,4 +282,3 @@ h2.music {
 .donation-block .sqs-donate-button {
   font-size: 1.8em;
   font-weight: 900;
-}
