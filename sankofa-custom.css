@@ -142,6 +142,7 @@ p.large-text a {
 
 p.large-text a:hover {
   text-decoration: underline;
+}
 
 p.medium-text {
   font-size: 1.2em;
@@ -267,4 +268,10 @@ h2.music {
   display: inline;
   border: 1px solid #ee3f00;
   padding: .3em;
+}
+
+/* Donate */
+.donation-block .sqs-donate-button {
+  font-size: 1.8em;
+  font-weight: 900;
 }
