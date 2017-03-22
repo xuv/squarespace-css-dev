@@ -40,7 +40,7 @@
   margin-left: 0;
 }
 
-/* Header > drop-downs */
+/* Header » drop-downs */
 html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav {
   top: .5em;
   left: 0;
@@ -49,6 +49,46 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 
 html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav .collection {
   padding: 1em 0;
+}
+
+/* header » social media links */
+@media only screen and (min-width: 641px) {
+  #header #headerNav {
+    width: 99%;
+  }
+}
+
+.top-nav-social-media {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 6px 0 6px 12px;
+  white-space: nowrap;
+}
+
+.top-nav-social-media nav.sqs-svg-icon--list {
+  font-size: 0em;
+  line-height: 0em;
+}
+
+@media only screen and (max-width: 671px){
+  .top-nav-social-media nav.sqs-svg-icon--list {
+    margin-right: 30px;
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header-inner {
+    display: inherit;
+  }
+  .top-nav-social-media {
+    float: right;
+    padding: 6px 0 0 0;
+  }
+  .top-nav-social-media .sqs-svg-icon--wrapper{
+    width: 24px !important;
+    height: 24px !important;
+  }
 }
 
 
@@ -282,3 +322,4 @@ h2.music {
 .donation-block .sqs-donate-button {
   font-size: 1.8em;
   font-weight: 900;
+ 900;
