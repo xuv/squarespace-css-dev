@@ -32,7 +32,7 @@
 .enable-nav-button #headerNav nav>div:not(.folder):last-child a {
   line-height: 0em;
   font-weight: 900;
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 .enable-nav-button #headerNav nav>div:not(.folder):last-child a {
@@ -52,12 +52,6 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 }
 
 /* header » social media links */
-@media only screen and (min-width: 641px) {
-  #header #headerNav {
-    width: 99%;
-  }
-}
-
 .top-nav-social-media {
   display: table-cell;
   vertical-align: middle;
@@ -68,6 +62,29 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 .top-nav-social-media nav.sqs-svg-icon--list {
   font-size: 0em;
   line-height: 0em;
+}
+
+@media only screen and (min-width: 672px) and (max-width: 900px){
+  #headerNav nav a,
+  #headerNav nav .folder-toggle,
+  .enable-nav-button #headerNav nav>div:not(.folder):last-child a {
+    padding: 0 0.25em;
+  }
+  .enable-nav-button #headerNav nav>div:not(.folder):last-child a {
+    padding: 1em .5em !important;
+  }
+  .top-nav-social-media {
+    padding: 6px 0 6px 2px;
+  }
+  .top-nav-social-media .sqs-svg-icon--wrapper {
+    margin: 4px!important;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  #header #headerNav {
+    width: 99%;
+  }
 }
 
 @media only screen and (max-width: 671px){
@@ -99,12 +116,6 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   font-weight: 900;
   /* margin: -65px 0 65px 0; */
 }
-
-/*@media only screen and (max-width:640px) {
-  body:not(.collection-type-gallery) .desc-wrapper p {
-    margin: -65px 0 65px 0;;
-  }
-}*/
 
 /* Spash on Homepage*/
 .view-list #splash  .banner-thumbnail-wrapper,
