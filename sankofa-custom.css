@@ -239,12 +239,12 @@ p.medium-text {
 }
 
 .mission-orange blockquote:before {
-  content: 'Ã¢â‚¬Å“Ã‚Â ';
+  content: '“ ';
   display: inline;
 }
 
 .mission-orange blockquote:after {
-  content: 'Ã‚Â Ã¢â‚¬Â';
+  content: ' ”';
   display: inline;
 }
 
