@@ -1,15 +1,14 @@
 /* Custom CSS for sankofa-org.squarespace.com */
-
 /* Utils :
- sankofa orange: #ee3f00
+  - sankofa orange: #ee3f00
  */
 
-/* Header */
+/* ---------- HEADER ---------- */
 .header-inner {
   padding: 0;
 }
 
-/* Logo */
+/* Header » Logo */
 #header #logoImage {
     width: 160px;
 }
@@ -22,7 +21,7 @@
   filter: none;
 }
 
-
+/* Header » Navigation */
 #headerNav nav .index {
   display: none;
 }
@@ -40,7 +39,7 @@
   margin-left: 0;
 }
 
-/* Header » drop-downs */
+/* Header » Drop-downs */
 html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav {
   top: .5em;
   left: 0;
@@ -51,7 +50,7 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   padding: 1em 0;
 }
 
-/* header » social media links */
+/* Header » Social media icons */
 .top-nav-social-media {
   display: table-cell;
   vertical-align: middle;
@@ -62,6 +61,11 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 .top-nav-social-media nav.sqs-svg-icon--list {
   font-size: 0em;
   line-height: 0em;
+}
+
+.top-nav-social-media .sqs-svg-icon--wrapper{
+  width: 22px !important;
+  height: 22px !important;
 }
 
 @media only screen and (min-width: 672px) and (max-width: 900px){
@@ -102,23 +106,18 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
     float: right;
     padding: 6px 0 0 0;
   }
-  .top-nav-social-media .sqs-svg-icon--wrapper{
-    width: 24px !important;
-    height: 24px !important;
-  }
 }
 
 
-/* Banner */
+/* Header » Banner */
 .banner-thumbnail-wrapper p {
   text-align: right;
   padding-right: 15%;
   font-weight: 900;
-  /* margin: -65px 0 65px 0; */
 }
 
-/* Spash on Homepage*/
-.view-list #splash  .banner-thumbnail-wrapper,
+/* Header » Banner "Spash" on Homepage*/
+.view-list #splash .banner-thumbnail-wrapper,
 .collection-type-index #splash .banner-thumbnail-wrapper {
   min-height: 200px;
 }
@@ -152,7 +151,7 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   font-size: 24px;
 }
 
-/* Footer */
+/* ---------- FOOTER ---------- */
 #footer {
   display: none;
 }
@@ -181,13 +180,13 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   color: #ee3f00;
 }
 
-/* Contact / Connect */
+/* ---------- Contact | Connect ---------- */
 p.small-text {
   text-align: center;
   font-size: .85em;
 }
 
-/* Mission */
+/* ---------- Mission ---------- */
 p.large-text {
   font-size: 2em;
   line-height: 1.2em;
@@ -248,14 +247,14 @@ p.medium-text {
   display: inline;
 }
 
-/* Music */
+/* --------- Music ---------- */
 h2.music {
   background-color: #ee3f00;
   color: white;
   padding: .5em .3em;
 }
 
-/* Dispatches */
+/* ---------- Dispatches --------- */
 .sqs-block-summary-v2 .summary-excerpt p,
 .sqs-block-summary-v2 .summary-excerpt ul,
 .sqs-block-summary-v2 .summary-excerpt li {
@@ -329,7 +328,7 @@ h2.music {
   padding: .3em;
 }
 
-/* Donate */
+/* --------- Donate --------- */
 .donation-block .sqs-donate-button {
   font-size: 1.8em;
   font-weight: 900;

@@ -4,7 +4,7 @@
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script>
 <script>
-  // Original code by Andy McWillians 
+  // Original code by Andy McWilliams 
   $(document).ready(function() {
     addSocialMediaLinks();
   });
