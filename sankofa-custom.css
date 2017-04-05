@@ -116,7 +116,17 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   font-weight: 900;
 }
 
-/* Header » Banner "Spash" on Homepage*/
+.banner-thumbnail-wrapper .desc-wrapper p {
+  font-size: 56px !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .banner-thumbnail-wrapper .desc-wrapper p {
+    font-size: 40px !important;
+  }
+}
+
+/* Header » Banner "Splash" on Homepage*/
 .view-list #splash .banner-thumbnail-wrapper,
 .collection-type-index #splash .banner-thumbnail-wrapper {
   min-height: 200px;
@@ -178,6 +188,24 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 
 #preFooter li a:hover {
   color: #ee3f00;
+}
+
+/* ---------- Listings ---------------- */
+@media only screen and (max-width: 640px) {
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-image-container {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
+
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-image-container img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-meta-container {
+    width: 100% !important;
+  }
 }
 
 /* ---------- Contact | Connect ---------- */
