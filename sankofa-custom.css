@@ -116,7 +116,17 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   font-weight: 900;
 }
 
-/* Header » Banner "Spash" on Homepage*/
+.banner-thumbnail-wrapper .desc-wrapper p {
+  font-size: 56px !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .banner-thumbnail-wrapper .desc-wrapper p {
+    font-size: 40px !important;
+  }
+}
+
+/* Header » Banner "Splash" on Homepage*/
 .view-list #splash .banner-thumbnail-wrapper,
 .collection-type-index #splash .banner-thumbnail-wrapper {
   min-height: 200px;
