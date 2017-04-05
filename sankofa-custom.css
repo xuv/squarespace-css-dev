@@ -190,6 +190,24 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   color: #ee3f00;
 }
 
+/* ---------- Listings ---------------- */
+@media only screen and (max-width: 640px) {
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-image-container {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
+
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-image-container img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body .sqs-gallery-design-list .sqs-gallery-design-list-slide:not(.no-image) .sqs-gallery-meta-container {
+    width: 100% !important;
+  }
+}
+
 /* ---------- Contact | Connect ---------- */
 p.small-text {
   text-align: center;
