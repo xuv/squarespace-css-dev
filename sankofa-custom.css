@@ -129,7 +129,7 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
 /* Header » Banner "Splash" on Homepage*/
 .view-list #splash .banner-thumbnail-wrapper,
 .collection-type-index #splash .banner-thumbnail-wrapper {
-  min-height: 200px;
+  min-height: 400px;
 }
 
 #splash .banner-thumbnail-wrapper .desc-wrapper {
