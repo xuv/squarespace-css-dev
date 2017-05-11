@@ -161,6 +161,23 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   font-size: 24px;
 }
 
+
+#what-we-do .sqs-col-6:first-child,{
+  background: black;
+  color: white;
+}
+
+#what-we-do .sqs-col-6 {
+  padding-top: 2em;
+  Padding-bottom: 2px;
+}
+
+#what-we-do .sqs-col-6:first-child h2,
+#what-we-do .sqs-col-6:first-child h3 {
+  color: white;
+}
+
+
 /* ---------- FOOTER ---------- */
 #footer {
   display: none;
