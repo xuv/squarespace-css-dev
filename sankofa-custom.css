@@ -415,3 +415,19 @@ h2.music {
 .sqs-block-archive {
   margin-top: -34px;
 }
+
+/* ---- Front Page ---- */
+.image-block-card-dynamic-font-sizing .sqs-block-image .design-layout-card .image-subtitle p {
+  font-family: Sorts Mill Goudy;
+  font-size: 1rem !important;
+  text-align: justify;
+}
+
+.image-block-card-dynamic-font-sizing .sqs-block-image .design-layout-card .image-subtitle p a {
+  color: #ee3f00;
+  font-weight: bold;
+}
+
+.image-block-card-dynamic-font-sizing .sqs-block-image .design-layout-card .image-subtitle p a:hover {
+  text-decoration: underline;
+}
