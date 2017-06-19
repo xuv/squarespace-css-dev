@@ -126,20 +126,20 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   }
 }
 
-/* Header » Banner "Splash" on Homepage*/
-.view-list #splash .banner-thumbnail-wrapper,
-.collection-type-index #splash .banner-thumbnail-wrapper {
+/* Header » Banner "Featured" on Homepage*/
+.view-list #featured .banner-thumbnail-wrapper,
+.collection-type-index #featured .banner-thumbnail-wrapper {
   min-height: 400px;
 }
 
-#splash .banner-thumbnail-wrapper .desc-wrapper {
+#featured .banner-thumbnail-wrapper .desc-wrapper {
   max-width: 100%;
   position: absolute;
   bottom: 0;
   padding: 0;
 }
 
-#splash .banner-thumbnail-wrapper p {
+#featured .banner-thumbnail-wrapper p {
   font-size: 1.7rem;
   font-weight: 400;
   background-color: #ee3f00;
@@ -149,7 +149,7 @@ html:not(.touch-styles) body:not(.force-mobile-nav) .nav-wrapper .folder .subnav
   color: black;
 }
 
-.collection-type-index #splash .page-content {
+.collection-type-index #featured .page-content {
   padding: 92px 32px 0px;
 }
 
