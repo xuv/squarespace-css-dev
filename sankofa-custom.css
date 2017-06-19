@@ -416,7 +416,14 @@ h2.music {
   margin-top: -34px;
 }
 
-/* ---- Front Page ---- */
+/* ---- Front Page "Dispatches"---- */
+.sqs-block-summary-v2 .summary-title a,
+.sqs-block-summary-v2 .summary-title a:link,
+.sqs-block-summary-v2 .summary-title a:visited {
+  color: #ee3f00;
+}
+
+/* ---- Front Page "How We Work"---- */
 .image-block-card-dynamic-font-sizing .sqs-block-image .design-layout-card .image-subtitle p {
   font-family: Sorts Mill Goudy;
   font-size: 1rem !important;
